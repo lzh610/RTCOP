@@ -1,0 +1,21 @@
+====例外クラスの型====
+System.IO.FileNotFoundException
+====例外メッセージ====
+Could not load file or assembly or one of its dependencies.
+====スタックトレース====
+  at LayerCompiler.CompileManager..ctor (System.String[] args) [0x00171] in <ce9913253c9044ddb4e551fc440e2559>:0 
+  at LayerCompiler.Program.Main (System.String[] args) [0x00000] in <ce9913253c9044ddb4e551fc440e2559>:0 
+
+ent, String ns, Boolean inLayer)
+   場所 LayerCompiler.CodeGeneration.RTCOPCodeGenerator.ItemsToStringForLayers(IEnumerable`1 items, LayerStructure layerStructure, Int32 layerId, List`1 baseClassNameList, List`1 constructorLists, List`1 baseMethodLists, Int32 indent, String ns, Boolean inLayer)
+   場所 LayerCompiler.CodeGeneration.RTCOPCodeGenerator.GenerateLayers(GeneratedCodes result, LayerStructure baseLayerStructure, List`1 layerStructures, List`1 baseClassNameList, List`1 baseMethodLists, List`1 constructorLists, String includeFilePath)
+   場所 LayerCompiler.CodeGeneration.RTCOPCodeGenerator.GenerateCode(LayerStructureFile mergedLSFile, String includeFilePath)
+   場所 LayerCompiler.CompileManager.GenerateCode(LayerStructureFile mergedLSFile)
+   場所 LayerCompiler.CompileManager.Compile()
+   場所 LayerCompiler.Program.Main(String[] args)
+
+neration.RTCOPCodeGenerator.GenerateCode(LayerStructureFile mergedLSFile, String includeFilePath)
+   場所 LayerCompiler.CompileManager.GenerateCode(LayerStructureFile mergedLSFile)
+   場所 LayerCompiler.CompileManager.Compile()
+   場所 LayerCompiler.Program.Main(String[] args)
+
